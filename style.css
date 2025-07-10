@@ -1,0 +1,61 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+/* Buttons */
+.btn {
+  background-color: #dd1111c4;
+  color: #fff;
+  padding: 20px 50px;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #2d1bcac4;
+  transform: scale(1.05);
+}
+
+/* Hero Section with Background */
+.hero {
+  background: url('/pic/Hero-bg.png') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+   
+}
+
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+.logo {
+  font-size: 44px;
+  font-weight: bold;
+  color: #dd1111c4;
+}
+
+/* Banner Center Text */
+.banner-content {
+  text-align: center;
+  margin-bottom: 200px;
+}
+.banner-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+ 
