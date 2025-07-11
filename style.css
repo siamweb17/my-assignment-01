@@ -162,4 +162,135 @@ body {
   color: #66666691;
 }
 
+ /* rating section */
+
+.productive-section {
+  background-color: #f0f4ff; /* Light blue background */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.productive-section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  flex: 1 1 200px;
+  max-width: 250px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stat-box h3 {
+  font-size: 40px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.stat-box p {
+  font-size: 16px;
+  color: #666;
+}
+/* reviews */
+.review-section {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.review-section h2 {
+  font-size: 42px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.review-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  background-color: #e7e7e7;
+  padding: 30px 20px;
+  border-radius: 12px;
+  max-width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.star-rating {
+  display: flex;
+  gap: 5px; /* space between stars */
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.star-rating img {
+  width: 20px;   /* make star small */
+  height: 20px;  /* keep square */
+  object-fit: contain;
+  
+}
  
+
+/* .star-rating {
+  width: 100px;
+  margin-bottom: 15px;
+} */
+
+.review-card h3 {
+  font-size: 20px;
+  color: #1d1a1a;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+/* Client Info */
+.client-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.client-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #74757783;
+}
+
+.client-text h4 {
+  font-size: 16px;
+  margin: 0;
+  color: #505050;
+}
+
+.client-text p {
+  font-size: 14px;
+  margin: 0;
+  color: #666;
+}
+
+
+
