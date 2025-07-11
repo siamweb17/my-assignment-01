@@ -115,8 +115,6 @@ body {
 }
 
 /* Productive user */
-
- 
 .productive-wrapper {
   background-color: white;
   padding: 60px 40px; }
@@ -150,7 +148,7 @@ body {
   max-width: 250px;
   padding: 20px;
   border-radius: 12px;
-  /* Optional: border or shadow */
+   
 }
 
 .stat-box h3 {
